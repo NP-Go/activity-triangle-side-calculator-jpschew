@@ -8,6 +8,7 @@ import (
 func convertDegtoRad(angle float64) float64 {
 	// 2 pi = 360 deg
 	// 1 deg = 2pi/360
+	// angle * pi/180
 	return angle * (math.Pi / 180)
 }
 func calculateSide(length1, length2, angle float64) float64 {
